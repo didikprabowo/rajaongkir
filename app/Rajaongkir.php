@@ -45,7 +45,7 @@ class Rajaongkir {
 	public function cost($from,$send,$weight,$kurir){
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
-		CURLOPT_URL => $$this->end_point."/cost",
+		CURLOPT_URL => $this->end_point."/cost",
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_ENCODING => "",
 		CURLOPT_MAXREDIRS => 10,
