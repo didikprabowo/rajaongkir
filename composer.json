@@ -1,10 +1,16 @@
 {
-    "name": "didik/rajaongkir",
+    "name": "didikprabowo/rajaongkir",
+    "description": "Package class API RajaOngkir for Laravel",
     "authors": [
         {
             "name": "didik Prabowo",
             "email": "didikprab@gmail.com"
         }
+    ],
+    "keywords": [
+        "rajaongkir", 
+        "API", 
+        "laravel"
     ],
     "version": "1.0",
     "type": "package",
