@@ -24,9 +24,7 @@ atau
 Tambahkan service provider ke config/app.php
 ```php
 'providers' => [
-	....
-	
-	 Rajaongkir\RajaongkirServiceProvider::class,,
+	 Rajaongkir\RajaongkirServiceProvider::class,
 ]
 ```
 Masukan konfigurasi 
@@ -45,7 +43,7 @@ Pastikan anda sudah mmasukan namespace pada fungis
 ### Melihat Daftar Semua Kota
 ```
     $city = new Rajaongkir;
-    echo $city =  $city->atinker('city',1); // untuk data tunggal
+    echo $city =  $city->atinker('city'); // untuk data tunggal
     echo $city =  $city->atinker('city',1); // untuk semua
 ```
 ### Melihat Daftar Semua Provinsi
