@@ -45,18 +45,20 @@ Pastikan anda sudah mmasukan namespace pada fungis
 ### Melihat Daftar Semua Kota
 ```
     $city = new Rajaongkir;
-    echo $city =  $client->atinker('city',1); // untuk data tunggal
-    echo $city =  $client->atinker('city',1); // untuk semua
+    echo $city =  $city->atinker('city',1); // untuk data tunggal
+    echo $city =  $city->atinker('city',1); // untuk semua
 ```
 ### Melihat Daftar Semua Provinsi
 ```
     $prov = new Rajaongkir;
-    echo $prov =  $client->atinker('province',1); // untuk data tunggal
-    echo $city =  $client->atinker('province'); // untuk semua
+    echo $prov =  $prov->atinker('province',1); // untuk data tunggal
+    echo $city =  $prov->atinker('province'); // untuk semua
 ```
 
 ### Melihat Daftar Harga
 METHOD = POST
+
+Format = ({kotaasal},{kotatujuan},{berat]},{kurir})
 ```
     $cost = new Rajaongkir;
     echo $cost->cost(501,114,1700,"jne");
