@@ -12,7 +12,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Rajaongkir\\" :"packages/didikprabowo/Rajaongkir/src"
+            "Rajaongkir\\" :"src"
         },
         "classmap": [
             "database/seeds",
@@ -21,8 +21,7 @@
     },
      "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "Rajaongkir\\" :"packages/didikprabowo/Rajaongkir/src"
+            "Rajaongkir\\" :"src"
         }
     },
      "extra": {

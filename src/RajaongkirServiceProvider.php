@@ -7,8 +7,8 @@ use Illuminate\Support\ServiceProvider;
 Class RajaongkirServiceProvider extends ServiceProvider{
 	public function boot(){
 		
-		$this->loadRoutesFrom(__DIR__.'/routes/web.php');
-		$this->loadViewsFrom(__DIR__.'/./../resources/views','rajaongkir');
+		// $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+		// $this->loadViewsFrom(__DIR__.'/./../resources/views','rajaongkir');
 	}
 	public function register(){
 		require_once __DIR__.'/./../app/Rajaongkir.php';
