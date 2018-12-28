@@ -33,6 +33,14 @@ php artisan vendor:publish
 ```
 lalu ketik 1
 
+Mengubah KOnfigurasi
+
+tambahkan konfigurasi di .env 
+```
+RAJAONGKIR_URL = {URL}
+RAJAONGKIR_KEY = {keyanda}
+```
+
 ## Cara menggunakan 
 
 Pastikan anda sudah mmasukan namespace pada fungis
