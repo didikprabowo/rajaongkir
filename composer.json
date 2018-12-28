@@ -6,6 +6,7 @@
             "email": "didikprab@gmail.com"
         }
     ],
+    "version": "1.0",
     "type": "package",
     "minimum-stability": "dev",
     "require": {},

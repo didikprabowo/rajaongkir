@@ -15,7 +15,7 @@ class Rajaongkir {
 		 	$uri = $this->end_point.'/'.$path.'?id='.$id;
 		 }
 
-		return $this->get($this->end_point."/city");
+		return $this->get($uri);
 	}
 	public function get($req){
 		$curl = curl_init();
