@@ -33,7 +33,7 @@ php artisan vendor:publish
 ```
 lalu ketik 1
 
-Mengubah KOnfigurasi
+Mengubah Konfigurasi
 
 tambahkan konfigurasi di .env 
 ```
@@ -43,7 +43,7 @@ RAJAONGKIR_KEY = {keyanda}
 
 ## Cara menggunakan 
 
-Pastikan anda sudah mmasukan namespace pada fungis
+Pastikan anda sudah menmbahkan namespace pada fungsi
  ``` 
  use Rajaongkir\app\Rajaongkir;
 ```
