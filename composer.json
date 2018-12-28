@@ -1,0 +1,35 @@
+{
+    "name": "didik/rajaongkir",
+    "authors": [
+        {
+            "name": "didik Prabowo",
+            "email": "didikprab@gmail.com"
+        }
+    ],
+    "type": "package",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Rajaongkir\\" :"packages/didikprabowo/Rajaongkir/src"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+     "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Rajaongkir\\" :"packages/didikprabowo/Rajaongkir/src"
+        }
+    },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Rajaongkir\\RajaongkirServiceProvider"
+            ]
+        }
+    }
+}
