@@ -37,8 +37,8 @@ Mengubah Konfigurasi
 
 tambahkan konfigurasi di .env 
 ```
-RAJAONGKIR_URL = {URL}
-RAJAONGKIR_KEY = {keyanda}
+rajaongkir_url = 
+rajaongkir_key = 
 ```
 
 ## Cara menggunakan 
