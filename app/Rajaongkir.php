@@ -4,7 +4,7 @@ namespace Rajaongkir\app;
 class Rajaongkir {
 	public function __construct(){
 		$this->end_point = config('rajaongkir.rajaongkir_url', 'https://rajaongkir.com/api/starter');
-		$this->key = config('rajaongkir.rajaongkir_key','6141096f7c8fed1a3226cc03ac3dab0b');
+		$this->key = config('rajaongkir.rajaongkir_key','key');
 	}
 
 	public function atinker($path,$id=null){
